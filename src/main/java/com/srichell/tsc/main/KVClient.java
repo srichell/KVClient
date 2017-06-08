@@ -1,5 +1,9 @@
 package com.srichell.tsc.main;
 
+import com.srichell.tsc.commands.Command;
+import com.srichell.tsc.commands.GetCommand;
+import com.srichell.tsc.commands.PutCommand;
+
 import java.io.IOException;
 
 /**
