@@ -8,7 +8,7 @@ import java.net.Socket;
 /**
  * Created by sridhar on 6/8/17.
  */
-public class Command {
+public abstract class Command {
     private KVClient client;
     private static final String END_OF_COMMAND = "EOC";
     private static final String END_OF_RESPONSE = "EOR";
